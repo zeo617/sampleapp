@@ -1,5 +1,6 @@
 package com.jeho.mysampleapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -70,6 +71,10 @@ class MainActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         Toast.makeText(this, "로그인 되었습니다", Toast.LENGTH_SHORT).show()
                         Toast.makeText(this, auth.currentUser?.uid.toString(), Toast.LENGTH_SHORT).show()
+
+                        val intent = Intent(this, BoardListActivity::class.java)
+                        startActivity(intent)
+
                     } else {
                         Toast.makeText(this, "로그인을 진행해주세요", Toast.LENGTH_SHORT).show()
                     }
