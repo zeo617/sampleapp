@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754005509050",
+    "project_id": "mysampleproject-d40e7",
+    "storage_bucket": "mysampleproject-d40e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754005509050:android:4d3ed0e728753979231383",
+        "android_client_info": {
+          "package_name": "com.jeho.mysampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754005509050-a1iqabtvq8ubho2ut2s0ikeaifdt9eam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcGWVsdihWOqxkWEz0czOt2OIBRW7SAJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754005509050-a1iqabtvq8ubho2ut2s0ikeaifdt9eam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
